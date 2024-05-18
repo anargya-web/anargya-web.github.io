@@ -302,9 +302,9 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {social?.phone && (
                 <ListItem
                   icon={<RiPhoneFill />}
-                  title="Phone:"
+                  title="WhatsApp:"
                   value={social.phone}
-                  link={`tel:${social.phone}`}
+                  link={`https://wa.me/:${social.phone}?text=.menu`}
                 />
               )}
               {social?.email && (
