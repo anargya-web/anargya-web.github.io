@@ -304,7 +304,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   icon={<RiPhoneFill />}
                   title="WhatsApp:"
                   value={social.phone}
-                  link={`https://wa.me/:${social.phone}?text=.menu`}
+                  link={`https://wa.me/${social.phone}?text=.menu`}
                 />
               )}
               {social?.email && (
