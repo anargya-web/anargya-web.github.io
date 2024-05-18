@@ -83,7 +83,7 @@ const CONFIG = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'ngeFork',
+    'Fork kodingan orang',
     'Mangan',
     'Sinau',
     'Turu',
